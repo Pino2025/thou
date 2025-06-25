@@ -1,11 +1,10 @@
-import React from 'react'
+import Image from 'next/image';
 
-function page() {
+export default function Page() {
   return (
     <div>
-            <h1>ພໍ່ ບັກໄກວັນ ຊື່ ສົມດີ</h1>
+      <h1>Hello Next.js</h1>
+      <Image src="/logo.png" width={100} height={100} alt="Logo" />
     </div>
-  )
+  );
 }
-
-export default page
